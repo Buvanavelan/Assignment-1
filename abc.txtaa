@@ -1,0 +1,2 @@
+SELECT Salesperson.city,customer.cust_name
+FROM Salesperson INNER JOIN Customer ON Salesperson.salesmanid=Customer.salesmanid
